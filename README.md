@@ -7,7 +7,7 @@
 
 Una solución basada en **Deep Learning** diseñada para entidades financieras. Este sistema evalúa en tiempo real el comportamiento de autenticación biométrica de clientes en sucursales bancarias, prediciendo la probabilidad de ataques de suplantación (ej. uso de huellas sintéticas o ataques distribuidos) sin penalizar a clientes genuinos con dificultades biométricas legítimas (como dermatitis).
 
-[📺 Ver Video de Demostración del Proyecto](ENLACE_A_TU_VIDEO_AQUI) | [🚀 Probar la Aplicación en Vivo](ENLACE_DE_STREAMLIT_AQUI)
+[📺 Ver Video de Demostración del Proyecto](ENLACE_A_TU_VIDEO_AQUI) | [🚀 Probar la Aplicación en Vivo](https://biometricfraudmodel-rtysgubvsqsb5rcmvnd5z8.streamlit.app/)
 
 ---
 
@@ -35,6 +35,5 @@ El sistema está compuesto por los siguientes archivos clave:
 ├── 🧠 modelo_dl_fraudes.keras       # Modelo de Deep Learning exportado
 ├── ⚖️ scaler_dl.joblib              # Escalador de datos (StandardScaler)
 ├── 🗺️ columnas_dl.joblib            # Mapeo del orden exacto de variables de entrenamiento
-├── 📄 Documentacion_Biometria_IA.pdf # Documentación técnica y reglas de negocio
 ├── 📦 requirements.txt              # Dependencias del proyecto
 └── 📜 README.md                     # Este archivo
