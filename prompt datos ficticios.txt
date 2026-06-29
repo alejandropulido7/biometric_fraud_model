@@ -1,0 +1,67 @@
+Bien. Me interesa el enfoque tabular. Pero pensandolo asi, ya no veo necesario seguir limpiando el dataset, porque ese dataset es de datos muy inconsistentes.
+
+Quiero crear 10000 registros ficticios con las siguientes columnas:
+
+id: identificador unico,
+rango_horas: periodo de tiempo en que se realizaron los transacciones (ejemplo: x transacciones en las ultimas 4 horas),
+cantidad_transacciones,
+cantidad_transacciones_exitosas,
+tasa_errores: 
+cantidad_sucursales_distintas,
+es_fraude
+
+De los 10000 registros el 1.2% son fraudes.
+
+Caracteristica de un fraude:
+rango_horas = x (numero mayor a 1)
+cantidad_transacciones = X (numero mayor a 3)
+cantidad_transacciones_exitosas = 0
+tasa_errores = 1
+cantidad_sucursales_distintas = x (numero mayor a 2)
+es_fraude = 1
+
+Caracteristica de un fraude:
+rango_horas = x (numero mayor a 1)
+cantidad_transacciones = x (numero mayor a 10)
+cantidad_transacciones_exitosas = 0
+tasa_errores = 1
+cantidad_sucursales_distintas = x (numero mayor a 2)
+es_fraude = 1
+
+Caracteristica de un fraude:
+rango_horas = x (numero mayor a 3)
+cantidad_transacciones = x (numero mayor a 20)
+cantidad_transacciones_exitosas = 1
+tasa_errores = >= 0.8
+cantidad_sucursales_distintas = x (numero mayor a 3)
+es_fraude = 1
+
+
+Caracteristica de NO fraude:
+rango_horas = 2
+cantidad_transacciones = 3
+cantidad_transacciones_exitosas = 0
+tasa_errores = 1
+cantidad_sucursales_distintas = 1
+es_fraude = 0
+
+Caracteristica de NO fraude:
+rango_horas = 2
+cantidad_transacciones = x (numero mayor a 3 menor a 9)
+cantidad_transacciones_exitosas = x (numero mayor igual a 1)
+tasa_errores = < 0.5
+cantidad_sucursales_distintas = 1
+es_fraude = 0
+
+Caracteristica de NO fraude:
+rango_horas = 5
+cantidad_transacciones = x (numero mayor a 3 menor a 9)
+cantidad_transacciones_exitosas = x (numero mayor igual a 1)
+tasa_errores = < 0.5
+cantidad_sucursales_distintas = 3
+es_fraude = 0
+
+
+tasa_errores es porcentaje y se calcula = cantidad_transacciones_exitosas*100/cantidad_transacciones
+
+Dame el codigo paso a paso en un nuevo notebook para crear estos datos ficticios. Para hacer el llenado de los datos, usa variables para los rangos que se usaran en cada columna
