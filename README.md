@@ -7,7 +7,7 @@
 
 Una solución basada en **Deep Learning** diseñada para entidades financieras. Este sistema evalúa en tiempo real el comportamiento de autenticación biométrica de clientes en sucursales bancarias, prediciendo la probabilidad de ataques de suplantación (ej. uso de huellas sintéticas o ataques distribuidos) sin penalizar a clientes genuinos con dificultades biométricas legítimas (como dermatitis).
 
-[📺 Ver Video de Demostración del Proyecto](ENLACE_A_TU_VIDEO_AQUI) | [🚀 Probar la Aplicación en Vivo](https://biometricfraudmodel-rtysgubvsqsb5rcmvnd5z8.streamlit.app/)
+[🚀 Probar la Aplicación en Vivo](https://biometricfraudmodel-guu6uifsgdsjpqeaaum64n.streamlit.app/)
 
 ---
 
