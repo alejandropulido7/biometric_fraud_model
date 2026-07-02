@@ -116,7 +116,7 @@ elif menu == "🔮 Simulador y Predicción":
         st.write("El sistema evalúa en tiempo real el comportamiento de autenticación biométrica de clientes en sucursales bancarias para predecir la probabilidad de un ataque de suplantación "
         "(ej. uso de huellas sintéticas). Analizando ventanas de tiempo, intentos fallidos y sucursales visitadas, " \
         "el modelo protege a las entidades financieras reduciendo el riesgo de materialización de fraudes, " \
-        "sin penalizar injustamente a clientes legítimos con dificultades de autenticación (como dermatitis).")
+        "sin penalizar injustamente a clientes legítimos con dificultades de autenticación (como clientes con dermatitis o mayoría de edad).")
 
         st.subheader("Parámetros del Cliente")
 
